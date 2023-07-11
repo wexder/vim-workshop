@@ -87,3 +87,21 @@ Illustration of what we can delete:
 	"dap"	delete a paragraph			
 	"diB"	delete inner '{' '}' block	
 	"daB"	delete a '{' '}' block		
+
+
+## Copy
+
+Copy is little complicate and for some people it might be confusing.
+Vim doesn't by default use the system clipboard, but instead have concept of registers. 
+Which are basically places where you can store text. The advanced usage of registers are out of scope for this tutorial.
+But we will be setting up vim to use the clipboard from your system.
+
+Now vim call copying "yanking" so to yank something we selectect it and use `y`. Just for context this saved the selection to
+register "0", use `:reg 0` to see what you saved.
+To paste it back, move your cursor where you want to paste it and pres `p`.
+
+To confuse people a little you can also yank whole lines and when pasting them, instead of pasting them after your cursor they are pasted on the next line.
+Yanking the whole line is done with `yy`.
+
+Second twist is that vim also saves almost every operation in visual mode to registers. For example if you delete lien `dd`
+it's saved the same way as if you would yank the whole like `yy`.

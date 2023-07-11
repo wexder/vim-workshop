@@ -43,4 +43,4 @@ We can also use the `:sort` command to sort range. Like `:'<,'>sort`.
 5. Randomness
 1. This
 
-There's probably much more usefull commands. But this is the one's I use the most.
+There's probably much more useful commands. But this is the one's I use the most.
