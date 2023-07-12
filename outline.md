@@ -8,4 +8,4 @@
 6. [Plugins](06-plugins.md)
 7. [LSP](07-lsp.md)
 8. [DAP](08-dap.md)
-9. [Copilot](08-copilot.md)
+9. [Copilot](09-copilot.md)
